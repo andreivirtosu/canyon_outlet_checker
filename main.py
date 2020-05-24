@@ -87,7 +87,7 @@ def load_bikes():
 
 if __name__ == "__main__":
     test_data = False
-    test_data = True
+    #test_data = True
     if test_data:
         raw_html = open('test.html', 'r').read()
     else:
